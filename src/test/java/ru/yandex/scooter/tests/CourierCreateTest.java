@@ -69,7 +69,7 @@ public class CourierCreateTest {
 
     @Step("Генерация уникального курьера")
     private Courier generateUniqueCourier() {
-        return new Courier("ninja" + System.currentTimeMillis(), "1234", "Naruto");
+        return new Courier("ninja" + System.currentTimeMillis(), "1234", "saske");
     }
 
     @Step("Отправка запроса на создание курьера")
